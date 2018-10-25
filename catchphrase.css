@@ -1,0 +1,174 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(255,255,255,0.9);
+	height: 100vh;
+	margin: 0 auto;
+	text-transform: uppercase;
+	transition: all 0.2s;
+	user-select: none;
+	width: 100%;
+}
+
+.theme0 {
+	background: #654ea3;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.theme1 {
+	background: #ee9ca7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.theme2 {
+	background: #FDC830;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.theme3 {
+	background: #56ab2f;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.theme4 {
+	background: #00B4DB;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.theme5 {
+	background: #bdc3c7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#title {
+	background: rgba(0, 0, 0, 0.3);
+	box-sizing: border-box;
+	color: rgba(255,255,255,0.9);
+	font-size: 5vh;
+	font-weight: 700;
+	height: 10vh;
+	padding: 2vh;
+	text-align: center;
+	text-shadow: 0.2vh 0.2vh rgba(0,0,0,0.2);
+}
+
+.buttonHover {
+	background: rgba(0,0,0,0.1);
+	cursor: pointer;
+}
+
+#score-container {
+	background: rgba(255,255,255,0.3);
+	height: 10vh;
+	text-shadow: 0.1vh 0.1vh rgba(0,0,0,0.2);
+}
+
+#score-container div {
+	box-sizing: border-box;
+	color: rgba(0,0,0,0.4);
+	float: left;
+	font-size: 3vh;
+	font-weight: 700;
+	height: 100%;
+	padding: 3vh 0;
+	text-align: center;
+	transition: background 0.2s;
+	width: 33.33%;
+}
+
+#scores {
+	background: rgba(2535,255,255,0.6);
+}
+
+#menu {
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.2);
+	color: rgba(0,0,0,0.4);
+	height: 15vh;
+	text-align: center;
+}
+
+#reset, #timer, #options {
+	box-sizing: border-box;
+	float: left;
+	font-size: 4vh;
+	height: 100%;
+	padding: 5vh 0;
+	transition: all 0.2s;
+	width: 33.33%;
+}
+
+#timer {
+	font-size: 6.5vh;
+	padding: 3.75vh 0;
+}
+
+#phrase-container {
+	box-sizing: border-box;
+	display: table;
+	height: 40vh;
+	margin: 0 auto;
+	padding: 10vh 5vw;
+}
+
+#phrase {
+	box-sizing: border-box;	
+	display: table-cell;
+	font-size: 4vh;
+	font-weight: 700;
+	height: 100%;
+	text-align: center;
+	text-shadow: 0.1vh 0.1vh rgba(0,0,0,0.2);
+	vertical-align: middle;
+}
+
+#next {
+	background: rgba(0,0,0,0.4);
+	color: rgba(0,0,0,0.3);
+	font-size: 20vh;
+	height: 25vh;
+	text-align: center;
+	transition: all 0.2s;
+}
+
+.winner {
+	background: rgba(0,255,0,0.6);
+	color: rgba(0,150,0,0.7);
+}
+
+.scoreButtonActive {
+	background: rgba(0,0,0,0.1);
+}
+
+.menuButtonActive {
+	background: rgba(0,0,0,0.1);
+	color: rgba(0,0,0,0.5);
+}
+
+.timerActive {
+	background: rgba(255,0,0,0.5);
+	color: rgba(0,0,0,0.5);
+}
+
+.nextActive {
+	background: rgba(0,255,0,0.6) !important;
+}
+
+.nextButtonActive {
+	background: rgba(0,200,0,0.6) !important;
+	color: rgba(0,0,0,0.4) !important;
+}
+
+.nextOption {
+	background: rgba(0,0,0,0.4) !important;
+}
+
+.nextOptionActive {
+	background: rgba(0,0,0,0.2) !important;
+	color: rgba(0,0,0,0.4) !important;
+}
