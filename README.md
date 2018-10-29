@@ -35,7 +35,7 @@ A quick rundown of the categories:
 How it works:
 The game is written in HTML, CSS, and Javascript. Words.js contains alphabetized word lists for each category in javascript arrays.
 When you open the webpage for the first time, the browser saves a randomized copy of each word array.
-As you play the game and iterate through the word arrays, the browser keeps track of the index of each array and saves it in local storage
-If the user reaches the end of any of their personal word arrays, the browser will randomize and save a new copy of that array and reset the index
-The most common complaint about other mobile app versions of this game is the repetition of words which suggests small word lists or ineffective iteration through the word lists
-The highest priority for this version of the game was to mitigate that issue
+As you play the game and iterate through the word arrays, the browser keeps track of the index of each array and saves it in local storage.
+If the user reaches the end of any of their personal word arrays, the browser will randomize and save a new copy of that array and reset the index.
+The most common complaint about other mobile app versions of this game is the repetition of words which suggests small word lists or ineffective iteration through the word lists.
+The highest priority for this version of the game was to mitigate that issue.
