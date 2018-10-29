@@ -33,6 +33,7 @@ A quick rundown of the categories:
 - "Is this easy mode?" - general category
 
 How it works:
+
 The game is written in HTML, CSS, and Javascript. Words.js contains alphabetized word lists for each category in javascript arrays.
 When you open the webpage for the first time, the browser saves a randomized copy of each word array.
 As you play the game and iterate through the word arrays, the browser keeps track of the index of each array and saves it in local storage.
